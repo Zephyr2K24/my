@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+#madha-logo {
+    margin-right: 70px;
+}
+
+#sympo-logo {
+    margin: 90px;
+}
+
+#sympo-content {
+    margin: 15px;
+    color: aliceblue;
+}
+
+.border-bottom {
+    color: white;
+}
+
+#About{
+    margin-left: 15px;
+    color:azure;
+}
+
+/* Animation Section */
+
+.fade-in {
+    animation: fadeInAnimation 2s ease-in;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
